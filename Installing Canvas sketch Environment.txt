@@ -1,0 +1,18 @@
+# Installing canvas sketch
+https://github.com/mattdesl/canvas-sketch
+
+# Install the CLI tool globally
+npm install canvas-sketch-cli -g
+
+# Scaffold a new 'sketch.js' file and open the browser
+canvas-sketch sketch.js --new --open
+
+# Saving output - ** stands for the folder name
+canvas-sketch sketch.js --output=output/**
+
+--------------------------------------------------------
+# Installing canvas sketch utility
+https://github.com/mattdesl/canvas-sketch-util
+
+npm install canvas-sketch-util --save
+
