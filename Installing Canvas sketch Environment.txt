@@ -36,4 +36,14 @@ canvas-sketch animation.js --output=output/** --stream=gif
 # Save animations to GIF but scale it down to 512 px wide
 canvas-sketch animation.js --output=output/** --stream [ gif --scale=512:-1 ]
 
+--------------------------------------------------------
+# Installing tweak pain for adding sliders
+
+# URL
+https://cocopon.github.io/tweakpane/
+
+# Installation
+npm install --save tweakpane
+
+
 
