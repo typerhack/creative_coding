@@ -16,3 +16,24 @@ https://github.com/mattdesl/canvas-sketch-util
 
 npm install canvas-sketch-util --save
 
+--------------------------------------------------------
+# Exporting Video
+
+# URL
+https://github.com/mattdesl/canvas-sketch/blob/master/docs/exporting-artwork.md
+
+# Installation
+npm install @ffmpeg-installer/ffmpeg --global
+
+# Saving output - ** stands for the folder name
+
+# Save animations to MP4 file
+canvas-sketch animation.js --output=output/** --stream
+
+# Save animations to GIF file instead
+canvas-sketch animation.js --output=output/** --stream=gif
+
+# Save animations to GIF but scale it down to 512 px wide
+canvas-sketch animation.js --output=output/** --stream [ gif --scale=512:-1 ]
+
+
